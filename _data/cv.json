@@ -1,18 +1,28 @@
 {
   "basics": {
     "name": "Qiuhao Lu",
-    "email": "",
+    "email": "chiuhaolu@gmail.com",
     "phone": "",
     "website": "https://qiuhaolu.github.io",
-    "summary": "Builder, designer, and curious generalist.",
+    "summary": "Applied AI Scientist working on NLP, LLM systems, clinical AI, and enterprise AI applications.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "",
-      "countryCode": "",
+      "countryCode": "US",
       "region": ""
     },
     "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Qiuhao Lu",
+        "url": "https://scholar.google.com/citations?user=IddOf0MAAAAJ&hl=en"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "qiuhao-lu-ph-d-70529a268",
+        "url": "https://www.linkedin.com/in/qiuhao-lu-ph-d-70529a268/"
+      },
       {
         "network": "GitHub",
         "username": "qiuhaolu",
@@ -20,8 +30,65 @@
       }
     ]
   },
-  "work": [],
-  "education": [],
+  "work": [
+    {
+      "name": "Ensemble Health Partners",
+      "position": "Senior AI Data Scientist",
+      "location": "USA",
+      "startDate": "2025-09",
+      "endDate": ""
+    },
+    {
+      "name": "UTHealth Houston",
+      "position": "Data Scientist",
+      "location": "USA",
+      "startDate": "2023-10",
+      "endDate": "2025-09"
+    },
+    {
+      "name": "Mayo Clinic",
+      "position": "Research Scientist Intern",
+      "location": "USA",
+      "startDate": "2022-06",
+      "endDate": "2022-12"
+    },
+    {
+      "name": "University of Oregon",
+      "position": "Research Assistant",
+      "location": "USA",
+      "startDate": "2018-08",
+      "endDate": "2023-09"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oregon",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "2018-08",
+      "endDate": "2023-09",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Xi'an Jiaotong University",
+      "area": "Control Science and Engineering (EECS)",
+      "studyType": "M.E.",
+      "startDate": "2015-08",
+      "endDate": "2018-06",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Xi'an Jiaotong University",
+      "area": "Internet of Things (Computer Science)",
+      "studyType": "B.E.",
+      "startDate": "2011-08",
+      "endDate": "2015-07",
+      "gpa": null,
+      "courses": []
+    }
+  ],
   "skills": [],
   "languages": [],
   "interests": [],

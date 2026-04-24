@@ -7,17 +7,26 @@ redirect_from:
   - /about.html
 ---
 
-I make thoughtful digital experiences with a bias for clarity, craft, and momentum. This site is a home for what I am building, what I care about, and the kind of work I want more of.
+I am an Applied AI Scientist working on NLP, LLM systems, clinical AI, and enterprise AI applications. My work focuses on dataset design, domain adaptation, post-training, and evaluation for real-world systems.
 
-I am interested in ambitious ideas that still respect the experience of the person on the other side of the screen. I like projects that combine technical depth with good judgment.
+I have worked across academic, clinical, and enterprise settings, with research spanning clinical NLP, language modeling, LLM evaluation, knowledge integration, and AI systems for healthcare operations.
 
-Current focus
+Current Role
 ======
-Designing, shipping, and refining small things with care.
+Senior AI Data Scientist at Ensemble Health Partners.
 
-Selected Links
+Research Areas
 ======
-* [Projects](/portfolio/)
-* [Writing](/year-archive/)
+* Clinical NLP and healthcare AI
+* Domain-adapted language models
+* LLM evaluation and benchmarking
+* Knowledge integration for biomedical AI
+* Multi-agent workflows and applied AI systems
+
+Links
+======
+* [Research](/research/)
 * [CV](/cv/)
+* [Google Scholar](https://scholar.google.com/citations?user=IddOf0MAAAAJ&hl=en)
+* [LinkedIn](https://www.linkedin.com/in/qiuhao-lu-ph-d-70529a268/)
 * [GitHub](https://github.com/qiuhaolu)

@@ -25,7 +25,10 @@ Then open <http://localhost:4000>.
 - `_pages/about.md` controls the homepage.
 - `_data/navigation.yml` controls the top navigation.
 - `_config.yml` controls site metadata and sidebar profile links.
-- `_portfolio/` contains project pages.
+- `_pages/research.md` controls the research overview.
+- `_pages/cv.md` controls the compact CV page.
+- `_pages/miscellaneous.md` controls the miscellaneous page.
+- `_portfolio/` contains selected contribution pages linked from Research.
 - `_posts/` contains writing.
 - `_publications/`, `_talks/`, and `_teaching/` are ready for academic content.
 - `files/` is for PDFs and downloadable files.

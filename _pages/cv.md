@@ -9,38 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-Add your education here.
-
 Experience
 ======
-Add roles, internships, research, projects, or other professional experience here.
-  
-Skills
-======
-* Product thinking
-* Web development
-* Writing and communication
+**Senior AI Data Scientist**, Ensemble Health Partners, USA  
+Sep 2025 -- Present
 
-Publications
+**Data Scientist**, UTHealth Houston, USA  
+Oct 2023 -- Sep 2025
+
+**Research Scientist Intern**, Mayo Clinic, USA  
+Jun 2022 -- Dec 2022
+
+**Research Assistant**, University of Oregon, USA  
+Aug 2018 -- Sep 2023
+
+Education
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-Add leadership, community, mentoring, or service here.
+**Ph.D. in Computer Science**, University of Oregon, USA  
+Aug 2018 -- Sep 2023
+
+**M.E. in Control Science and Engineering (EECS)**, Xi'an Jiaotong University, China  
+Aug 2015 -- Jun 2018
+
+**B.E. in Internet of Things (Computer Science)**, Xi'an Jiaotong University, China  
+Aug 2011 -- Jul 2015
