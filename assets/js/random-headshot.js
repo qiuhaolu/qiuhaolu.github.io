@@ -1,12 +1,12 @@
----
----
-
 (function () {
   const headshots = [
-    {% assign headshots = site.static_files | where_exp: "file", "file.path contains '/headshots/'" | sort: "path" %}
-    {% for file in headshots %}
-      "{{ file.path | relative_url }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %}
+    "/headshots/headshot_variant_1.png",
+    "/headshots/headshot_variant_2.png",
+    "/headshots/headshot_variant_3.png",
+    "/headshots/headshot_variant_4.png",
+    "/headshots/headshot_variant_5.png",
+    "/headshots/headshot_variant_6.png",
+    "/headshots/headshot_variant_7.png"
   ];
 
   const target = document.querySelector("[data-random-headshot]");
