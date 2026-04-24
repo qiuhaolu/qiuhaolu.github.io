@@ -1,0 +1,22 @@
+.misc-links {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.misc-links li {
+  margin-bottom: 1rem;
+}
+
+.misc-links span,
+.misc-links code {
+  display: block;
+}
+
+.misc-links code {
+  margin-top: 0.2rem;
+  color: $muted-text-color;
+  font-size: 0.85em;
+  white-space: normal;
+  word-break: break-word;
+}

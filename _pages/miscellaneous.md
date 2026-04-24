@@ -7,10 +7,21 @@ author_profile: true
 
 {% include base_path %}
 
-This page is a place for notes, links, side projects, talks, and other material that does not need to live on the research or CV pages.
-
-Links
-======
-* [Writing and notes](/year-archive/)
-* [Selected contribution pages](/portfolio/)
-* [GitHub](https://github.com/qiuhaolu)
+<ul class="misc-links">
+  <li>
+    <span>🎵 <a href="https://www.youtube.com/watch?v=WoqbraeI_Rs&list=RDWoqbraeI_Rs&start_radio=1">OST I</a></span>
+    <code>youtube.com/watch?v=WoqbraeI_Rs</code>
+  </li>
+  <li>
+    <span>🎵 <a href="https://www.youtube.com/watch?v=ATMCU3i6-1c&list=RDATMCU3i6-1c&start_radio=1">OST II</a></span>
+    <code>youtube.com/watch?v=ATMCU3i6-1c</code>
+  </li>
+  <li>
+    <span>🕺 <a href="https://www.youtube.com/watch?v=mr834Cs9ncs">Timing, precision, and style</a></span>
+    <code>youtube.com/watch?v=mr834Cs9ncs</code>
+  </li>
+  <li>
+    <span>🎮 <a href="https://www.youtube.com/watch?v=3nRqQf2yA0s">Frame-perfect precision — can AI do this?</a></span>
+    <code>youtube.com/watch?v=3nRqQf2yA0s</code>
+  </li>
+</ul>

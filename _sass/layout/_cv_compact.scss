@@ -1,0 +1,55 @@
+.cv-compact {
+  margin-top: 0.5rem;
+}
+
+.cv-section {
+  margin-bottom: 2.25rem;
+}
+
+.cv-section h2 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid $border-color;
+  font-size: 1.15em;
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid mix($border-color, $background-color, 55%);
+}
+
+.cv-entry:last-child {
+  border-bottom: 0;
+}
+
+.cv-entry h3 {
+  margin: 0;
+  font-size: 1em;
+}
+
+.cv-entry p {
+  margin: 0.2rem 0 0;
+  color: $muted-text-color;
+}
+
+.cv-entry span {
+  color: $muted-text-color;
+  font-size: 0.9em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .cv-entry {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .cv-entry span {
+    text-align: left;
+    white-space: normal;
+  }
+}

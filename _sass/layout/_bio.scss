@@ -1,0 +1,37 @@
+.bio-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.bio-highlight h2 {
+  margin-top: 0;
+  font-size: 1.05em;
+}
+
+.bio-highlight ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.bio-highlight li {
+  display: grid;
+  grid-template-columns: 1.35em minmax(0, 1fr);
+  gap: 0.45em;
+  align-items: start;
+  margin-bottom: 0.55em;
+}
+
+.bio-highlight i {
+  margin-top: 0.18em;
+  color: $link-color;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .bio-highlights {
+    grid-template-columns: 1fr;
+  }
+}
