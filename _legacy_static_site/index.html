@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal website for Qiuhao Lu featuring work, writing, and contact information."
+    />
+    <title>Qiuhao Lu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top">Qiuhao Lu</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero reveal">
+          <p class="eyebrow">Builder, designer, and curious generalist</p>
+          <h1>
+            I make thoughtful digital experiences with a bias for clarity,
+            craft, and momentum.
+          </h1>
+          <p class="hero-copy">
+            This site is a home for what I am building, what I care about, and
+            the kind of work I want more of. It is intentionally simple:
+            personal, readable, and built to grow over time.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">See selected work</a>
+            <a class="button button-secondary" href="https://github.com/qiuhaolu"
+              >GitHub</a
+            >
+          </div>
+        </section>
+
+        <section class="section reveal" id="work">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Things I have built and the way I like to work.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="card feature-card">
+              <p class="card-label">01</p>
+              <h3>Personal systems</h3>
+              <p>
+                I like building tools and workflows that turn vague ideas into
+                steady progress, especially when the work needs both taste and
+                structure.
+              </p>
+            </article>
+            <article class="card feature-card">
+              <p class="card-label">02</p>
+              <h3>Web experiences</h3>
+              <p>
+                My favorite products feel calm, direct, and alive. I care about
+                the details that make interfaces feel easy to trust.
+              </p>
+            </article>
+            <article class="card feature-card">
+              <p class="card-label">03</p>
+              <h3>Ongoing experiments</h3>
+              <p>
+                This section is ready for your projects, case studies, notes, or
+                links. Swap in real work here as your site evolves.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section split-section reveal" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>A short introduction, without the corporate varnish.</h2>
+          </div>
+          <div class="split-layout">
+            <div class="card narrative-card">
+              <p>
+                I am interested in ambitious ideas that still respect the
+                experience of the person on the other side of the screen. I like
+                projects that combine technical depth with good judgment.
+              </p>
+              <p>
+                Right now, this site is a strong starting point: a place to
+                introduce yourself, highlight work, publish writing, and create a
+                more personal presence online.
+              </p>
+            </div>
+            <aside class="card detail-card">
+              <p class="detail-label">Current focus</p>
+              <p>Designing, shipping, and refining small things with care.</p>
+              <p class="detail-label">Based in</p>
+              <p>Update this with your city or region.</p>
+              <p class="detail-label">Interests</p>
+              <p>Product, code, writing, systems, and long-range thinking.</p>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Notes</p>
+            <h2>A section you can turn into writing, links, or a living now page.</h2>
+          </div>
+          <div class="note-list">
+            <article class="card note-card">
+              <p class="note-date">Now</p>
+              <h3>What I am exploring</h3>
+              <p>
+                Replace this with a short update about what you are learning,
+                building, or paying attention to lately.
+              </p>
+            </article>
+            <article class="card note-card">
+              <p class="note-date">Soon</p>
+              <h3>What belongs here next</h3>
+              <p>
+                Good next additions: real project links, a short bio, a contact
+                email, and one or two concrete case studies.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact-section reveal" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>If you want to collaborate, this is where the conversation starts.</h2>
+          </div>
+          <div class="card contact-card">
+            <p>
+              Add your preferred contact details here, or swap this for links to
+              email, social profiles, and a resume.
+            </p>
+            <div class="contact-links">
+              <a class="button button-primary" href="https://github.com/qiuhaolu"
+                >GitHub profile</a
+              >
+              <a class="button button-secondary" href="#top">Back to top</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Built with HTML, CSS, and a little JavaScript.</p>
+        <p><span id="year"></span> Qiuhao Lu</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

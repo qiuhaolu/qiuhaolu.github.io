@@ -1,0 +1,31 @@
+{
+  "basics": {
+    "name": "Qiuhao Lu",
+    "email": "",
+    "phone": "",
+    "website": "https://qiuhaolu.github.io",
+    "summary": "Builder, designer, and curious generalist.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "qiuhaolu",
+        "url": "https://github.com/qiuhaolu"
+      }
+    ]
+  },
+  "work": [],
+  "education": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [],
+  "presentations": []
+}
