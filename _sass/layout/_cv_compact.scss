@@ -9,7 +9,7 @@
 .cv-section h2 {
   margin-bottom: 1rem;
   padding-bottom: 0.35rem;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid var(--global-border-color);
   font-size: 1.15em;
 }
 
@@ -18,7 +18,7 @@
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 1rem;
   padding: 0.85rem 0;
-  border-bottom: 1px solid mix($border-color, $background-color, 55%);
+  border-bottom: 1px solid var(--global-border-color);
 }
 
 .cv-entry:last-child {
@@ -32,11 +32,11 @@
 
 .cv-entry p {
   margin: 0.2rem 0 0;
-  color: $muted-text-color;
+  color: var(--global-text-color-light);
 }
 
 .cv-entry span {
-  color: $muted-text-color;
+  color: var(--global-text-color-light);
   font-size: 0.9em;
   text-align: right;
   white-space: nowrap;
