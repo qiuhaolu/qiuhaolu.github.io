@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Qiuhao Lu"
 title_separator          : "-"
 name                     : &name "Qiuhao Lu"
@@ -30,7 +30,7 @@ author:
   location         : "USA"
   employer         : "Ensemble Health Partners"
   uri              : # URL
-  email            : "chiuhaolu@gmail.com"
+  email            :
 
   # Academic websites
   academia         : # URL

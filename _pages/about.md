@@ -7,26 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-I am an Applied AI Scientist working on NLP, LLM systems, clinical AI, and enterprise AI applications. My work focuses on dataset design, domain adaptation, post-training, and evaluation for real-world systems.
+I am an Applied AI Scientist working on natural language processing, large language models, and healthcare AI. My work focuses on building and evaluating domain-adapted AI systems for clinical and enterprise settings.
 
-I have worked across academic, clinical, and enterprise settings, with research spanning clinical NLP, language modeling, LLM evaluation, knowledge integration, and AI systems for healthcare operations.
+I received my Ph.D. in Computer Science from the University of Oregon, where I worked on clinical NLP, biomedical language models, and knowledge integration. I am currently a Senior AI Data Scientist at Ensemble Health Partners.
 
-Current Role
+Interests
 ======
-Senior AI Data Scientist at Ensemble Health Partners.
+* <i class="fas fa-notes-medical" aria-hidden="true"></i> Clinical NLP and healthcare AI
+* <i class="fas fa-language" aria-hidden="true"></i> Domain-adapted language models
+* <i class="fas fa-chart-line" aria-hidden="true"></i> LLM evaluation and benchmarking
+* <i class="fas fa-project-diagram" aria-hidden="true"></i> Knowledge integration for biomedical AI
+* <i class="fas fa-robot" aria-hidden="true"></i> Multi-agent and computer-use AI systems
 
-Research Areas
+Education
 ======
-* Clinical NLP and healthcare AI
-* Domain-adapted language models
-* LLM evaluation and benchmarking
-* Knowledge integration for biomedical AI
-* Multi-agent workflows and applied AI systems
-
-Links
-======
-* [Research](/research/)
-* [CV](/cv/)
-* [Google Scholar](https://scholar.google.com/citations?user=IddOf0MAAAAJ&hl=en)
-* [LinkedIn](https://www.linkedin.com/in/qiuhao-lu-ph-d-70529a268/)
-* [GitHub](https://github.com/qiuhaolu)
+* <i class="fas fa-graduation-cap" aria-hidden="true"></i> Ph.D. in Computer Science, University of Oregon
+* <i class="fas fa-university" aria-hidden="true"></i> M.E. in Control Science and Engineering, Xi'an Jiaotong University
+* <i class="fas fa-university" aria-hidden="true"></i> B.E. in Internet of Things, Xi'an Jiaotong University
