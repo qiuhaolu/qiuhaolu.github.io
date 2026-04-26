@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Miscellaneous"
+hide_title: true
 permalink: /miscellaneous/
 author_profile: true
 ---
