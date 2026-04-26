@@ -1,7 +1,6 @@
 ---
 permalink: /
-title: "Bio"
-hide_title: true
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/

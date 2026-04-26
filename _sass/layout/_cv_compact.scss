@@ -1,5 +1,5 @@
 .cv-compact {
-  margin-top: 0.5rem;
+  margin-top: 0;
 }
 
 .cv-section {
@@ -7,6 +7,7 @@
 }
 
 .cv-section h2 {
+  margin-top: 0;
   margin-bottom: 1rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid var(--global-border-color);
