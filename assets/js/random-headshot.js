@@ -1,9 +1,9 @@
 (function () {
+  const defaultHeadshot = "/headshots/headshot_variant_3.png";
   const headshots = [
     "/headshots/headshot_variant_1.png",
     "/headshots/headshot_variant_2.png",
-    "/headshots/headshot_variant_3.png",
-    "/headshots/headshot_variant_4.png",
+    defaultHeadshot,
     "/headshots/headshot_variant_5.png",
     "/headshots/headshot_variant_6.png",
     "/headshots/headshot_variant_7.png"
@@ -16,6 +16,15 @@
   }
 
   const lastHeadshot = window.localStorage.getItem("lastHeadshot");
+  const hasShownDefault = window.localStorage.getItem("hasShownDefaultHeadshot");
+
+  if (!hasShownDefault && headshots.includes(defaultHeadshot)) {
+    target.src = defaultHeadshot;
+    window.localStorage.setItem("lastHeadshot", defaultHeadshot);
+    window.localStorage.setItem("hasShownDefaultHeadshot", "true");
+    return;
+  }
+
   let candidates = headshots;
 
   if (headshots.length > 1) {
