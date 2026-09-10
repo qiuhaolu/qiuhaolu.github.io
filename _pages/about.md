@@ -2,18 +2,19 @@
 permalink: /
 title: "About Me"
 author_profile: true
+hide_employer: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am an Applied AI Scientist working on natural language processing, large language models, and healthcare AI. My work focuses on building and evaluating domain-adapted AI systems for clinical and enterprise settings.
+I am a machine learning engineer working on natural language processing, large language models, and healthcare AI. My work focuses on building and evaluating domain-adapted AI systems.
 
-I received my Ph.D. in Computer Science from the University of Oregon, where I worked on clinical NLP, biomedical language models, and knowledge integration. I am currently a Senior AI Data Scientist at Ensemble Health Partners.
+I received my Ph.D. in Computer Science from the University of Oregon, where I worked on clinical NLP, biomedical language models, and knowledge integration.
 
 <div class="bio-highlights">
   <section class="bio-highlight">
-    <h2>Research and Technical Interests</h2>
+    <h2>Technical Interests</h2>
     <ul>
       <li><i class="fas fa-notes-medical" aria-hidden="true"></i> Clinical NLP and healthcare AI</li>
       <li><i class="fas fa-language" aria-hidden="true"></i> Domain-adapted language models</li>

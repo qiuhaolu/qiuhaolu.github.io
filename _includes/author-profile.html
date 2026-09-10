@@ -7,10 +7,13 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
+    {% assign avatar_first_character = author.avatar | slice: 0 %}
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}" data-random-headshot fetchpriority="high" />
+      <img src="{{ author.avatar }}" alt="{{ author.name }}" fetchpriority="high" />
+    {% elsif avatar_first_character == "/" %}
+      <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" data-random-headshot fetchpriority="high" />
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" />
     {% endif %}
   </div>
 
@@ -27,7 +30,7 @@
       {% if author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
-      {% if author.employer %}
+      {% if author.employer and page.hide_employer != true %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}

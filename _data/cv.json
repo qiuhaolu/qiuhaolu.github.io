@@ -4,7 +4,7 @@
     "email": "",
     "phone": "",
     "website": "https://qiuhaolu.github.io",
-    "summary": "Applied AI Scientist working on NLP, LLM systems, clinical AI, and enterprise AI applications.",
+    "summary": "Machine learning engineer building and evaluating NLP, LLM, and healthcare AI systems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,10 +33,17 @@
   "work": [
     {
       "name": "Ensemble Health Partners",
-      "position": "Senior AI Data Scientist",
+      "position": "Lead AI/ML Engineer",
+      "location": "USA",
+      "startDate": "2026-09",
+      "endDate": ""
+    },
+    {
+      "name": "Ensemble Health Partners",
+      "position": "Senior AI/ML Engineer",
       "location": "USA",
       "startDate": "2025-09",
-      "endDate": ""
+      "endDate": "2026-09"
     },
     {
       "name": "UTHealth Houston",
